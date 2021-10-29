@@ -1,3 +1,84 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+}
+
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  background-color: var(--primery-white-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+/* 212121 основной цвет
+757575 серый цвет
+2196F3 синий  */
+/* FFFFFF белый */
+/* 2F303A baner  */
+/* F5F4FA вторичный цвет фона */
+
+/* Лого */
+.logo {
+  color: #000000;
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-span {
+  color: var(--accent-color);
+}
+/* navigation Навигация сайта*/
+.navigation {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.navigation .link {
+  color: var(--title-text-color);
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--accent-color);
+}
+
+.navigation .link.curent {
+  color: var(--accent-color);
+}
+/* Шапка */
+.baner-title {
+  color: var(--primery-white-color);
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Особенности */
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+/*  Чем мы занимаемся  */
+.examples {
+  list-style: none;
+}
+
+/*Наша команда  */
+
+.comand .title {
+  color: var(--title-text-color);
+} /* button */
+
+.button {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
 }

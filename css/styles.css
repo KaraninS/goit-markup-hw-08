@@ -9,6 +9,7 @@ body {
   font-family: Roboto, sans-serif;
   background-color: var(--primery-white-color);
   color: var(--primary-text-color);
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -24,10 +25,10 @@ body {
 .logo {
   color: #000000;
   font-family: Raleway, cursive;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo-span {
@@ -35,13 +36,14 @@ body {
 }
 /* navigation Навигация сайта*/
 .navigation {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  font-weight: 500;
 }
 .navigation .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -51,20 +53,49 @@ body {
 .navigation .link.curent {
   color: var(--accent-color);
 }
+
+.tel-meil .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.tel-meil .link:hover,
+.tel-meil .link:focus {
+  color: var(--accent-color);
+}
 /* Шапка */
+.baner {
+  background-color: #2f303a;
+}
 .baner-title {
   color: var(--primery-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* section */
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* Особенности */
 .features-list .title {
   color: var(--title-text-color);
+}
+
+.features-list .text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /*  Чем мы занимаемся  */
@@ -81,4 +112,50 @@ body {
 .button {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.button-pt {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.button-pt:hover,
+.button-pt:focus {
+  background-color: #2196f3;
+  color: var(--primery-white-color);
+  cursor: pointer;
+}
+
+footer {
+  background-color: #2f303a;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-town {
+  font-style: normal;
+  color: var(--primery-white-color);
+}
+
+.project .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.project .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }

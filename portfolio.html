@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -19,14 +19,14 @@
             <a href="/" class="logo"><span class="logo-span">Web</span>Studio</a>
 
             <ul class="navigation list">
-                <li><a href="index.html" class="link">Студия</a></li>
-                <li><a href="portfolio.html" class="link curent">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
+                <li class="navigation item"><a href="index.html" class="link">Студия</a></li>
+                <li class="navigation item"><a href="portfolio.html" class="link curent">Портфолио</a></li>
+                <li class="navigation item"><a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="tel-meil list"> 
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <ul class="contact list"> 
+            <li class="contact item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li class="contact item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
@@ -35,15 +35,15 @@
                 <h1 style='display: none;'>Портфолио</h1>
     <!-- ссылки филтьра -->
             <ul class="filter list">
-                <li><button type="button" class="button-pt">Все</button></li>
-                <li><button type="button" class="button-pt">Веб-сайты</button></li>
-                <li><button type="button" class="button-pt">Приложения</button></li>
-                <li><button type="button" class="button-pt">Дизайн</button></li>
-                <li><button type="button" class="button-pt">Маркетинг</button></li>
+                <li class="filter item"><button type="button" class="button-portfolio">Все</button></li>
+                <li class="filter item"><button type="button" class="button-portfolio">Веб-сайты</button></li>
+                <li class="filter item"><button type="button" class="button-portfolio">Приложения</button></li>
+                <li class="filter item"><button type="button" class="button-portfolio">Дизайн</button></li>
+                <li class="filter item"><button type="button" class="button-portfolio">Маркетинг</button></li>
             </ul>
     <!-- проэкты -->
          <ul class="project list">
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/tehnokryak.jpg" alt="Технокряк" width="300">
                         <h2  class="title">Технокряк</h2>
@@ -52,7 +52,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/poster.jpg" alt="Постер New Orlean vs Golden Star" width="300">
                         <h2  class="title">Постер New Orlean vs Golden Star</h2>
@@ -61,7 +61,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/seafood.jpg" alt="Ресторан Seafood" width="300">
                         <h2  class="title">Ресторан Seafood</h2>
@@ -70,7 +70,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/prime.jpg" alt="Проект Prime" width="300">
                         <h2  class="title">Проект Prime</h2>
@@ -79,7 +79,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/boxes.jpg" alt="Проект Boxes" width="300">
                         <h2  class="title">Проект Boxes</h2>
@@ -88,7 +88,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/borders.jpg" alt="Inspiration has no Borders" width="300">
                         <h2  class="title">Inspiration has no Borders</h2>
@@ -97,7 +97,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/edition.jpg" alt="Издание Limited Edition" width="300">
                         <h2  class="title">Издание Limited Edition</h2>
@@ -106,7 +106,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/lab.jpg" alt="Проект LAB" width="300">
                         <h2  class="title">Проект LAB</h2>
@@ -115,7 +115,7 @@
                         </p>
                     </a>
                 </li>
-                <li>
+                <li class="project item">
                     <a href="" class="link">
                         <img src="images/business.jpg" alt="Growing Business" width="300">
                         <h2  class="title">Growing Business</h2>
@@ -129,17 +129,17 @@
  
     </main>
     <!-- Плдвал -->
-    <footer>
+    <footer class="footer">
         <a href="/" class="logo"><span class="logo-span">Web</span>Studio</a>
         <address class="address-footer">
-            <ul class="tel-meil list">
-                <li>
-                    <p class="address-town">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="contact-footer list">
+                <li class="contact-footer item">
+                    <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
                 </li>
-                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                <li class="contact-footer item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li class="contact-footer item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
-</body>
-</html>
+    </body>
+    </html>

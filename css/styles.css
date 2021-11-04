@@ -54,13 +54,17 @@ body {
   color: var(--accent-color);
 }
 
-.tel-meil .link {
+.contact .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.tel-meil .link:hover,
-.tel-meil .link:focus {
+.contact .link:hover,
+.contact .link:focus {
   color: var(--accent-color);
 }
 /* Шапка */
@@ -84,13 +88,22 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.section-title.examples {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Особенности */
 .features-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .features-list .text {
@@ -104,10 +117,23 @@ body {
 }
 
 /*Наша команда  */
-
+.section.examples {
+  background-color: #f5f4fa;
+}
 .comand .title {
   color: var(--title-text-color);
-} /* button */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.text.comand {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* button */
 
 .button {
   color: var(--primery-white-color);
@@ -118,28 +144,45 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.button-pt {
+.button-portfolio {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.62;
+  text-align: center;
 }
-.button-pt:hover,
-.button-pt:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   background-color: #2196f3;
   color: var(--primery-white-color);
   cursor: pointer;
 }
 
-footer {
+.footer {
   background-color: #2f303a;
+}
+.footer .logo {
+  color: var(--primery-white-color);
+}
+
+.address-footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
-.address-town {
-  font-style: normal;
+.contact-footer .text {
   color: var(--primery-white-color);
+}
+.contact-footer .link {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.contact-footer .link:hover,
+.contact-footer .link:focus {
+  color: var(--accent-color);
 }
 
 .project .link {
@@ -148,7 +191,7 @@ footer {
 }
 
 .project .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

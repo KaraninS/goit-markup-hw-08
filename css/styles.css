@@ -21,7 +21,7 @@ body {
 
 /* Лого */
 .logo {
-  color: #000000;
+  color: var(--accent-color);
   font-family: Raleway, cursive;
   font-weight: 700;
   font-size: 26px;
@@ -30,7 +30,7 @@ body {
 }
 
 .logo-span {
-  color: var(--accent-color);
+  color: #000;
 }
 /* navigation Навигация сайта*/
 .navigation {
@@ -69,7 +69,7 @@ body {
 }
 
 /* Шапка */
-.baner {
+.hero {
   background-color: #2f303a;
 }
 .baner-title {
@@ -97,19 +97,12 @@ body {
 }
 /* section fetures */
 
-.features-title {
+.section-title {
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.features-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .features-text {
@@ -117,59 +110,52 @@ body {
   line-height: 1.71;
 }
 
-/*  Чем мы занимаемся  */
-.work-title {
+.features-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
+/*  Чем мы занимаемся  */
 
 /*Наша команда  */
 .command {
   background-color: #f5f4fa;
 }
-.command-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
+
 .command-pre-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   color: var(--title-text-color);
 }
 .comand-text {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 
 /* FOOTER */
 .footer {
   background-color: #2f303a;
 }
-.footer-logo {
+.logo-footer {
   color: var(--primery-white-color);
 }
-
+address {
+  font-style: normal;
+}
 .footer-text {
   color: var(--primery-white-color);
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
 }
 
 .footer-link {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
 }
 
 .footer-link:hover,
@@ -177,7 +163,6 @@ body {
   color: var(--accent-color);
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
 }
 
 /* Страница Портфолио */
@@ -209,4 +194,5 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }

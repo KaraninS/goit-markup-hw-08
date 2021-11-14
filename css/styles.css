@@ -113,6 +113,7 @@ button {
 }
 .contact {
   display: flex;
+  margin-left: auto;
 }
 .contact-item {
   min-width: 150px;
@@ -134,7 +135,6 @@ button {
   color: var(--accent-color);
 }
 .page-header {
-  display: flex;
   border-bottom: 1px solid #ececec;
 }
 .header-container {
@@ -144,9 +144,7 @@ button {
 .header-navigation {
   display: flex;
 }
-.contact {
-  margin-left: auto;
-}
+
 /* Шапка */
 .hero {
   padding-top: 200px;
@@ -164,10 +162,11 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .baner-button {
+  border: transparent;
   font-family: inherit;
   color: var(--primery-white-color);
   background-color: var(--accent-color);
@@ -190,7 +189,7 @@ button {
   letter-spacing: 0.03em;
 
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .features-text {
@@ -206,13 +205,13 @@ button {
   text-transform: uppercase;
   color: var(--title-text-color);
 
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 /*  Чем мы занимаемся  */
 
 /*Наша команда  */
 .comand-section {
-  background-color: #e5e5e5;
+  background-color: #f5f4fa;
 }
 .command-title {
   font-weight: 700;
@@ -221,13 +220,14 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .command-pre-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .comand-text {
   font-size: 16px;
@@ -236,6 +236,7 @@ button {
 
 /* FOOTER */
 .footer {
+  padding: 60px 0;
   background-color: #2f303a;
 }
 .logo-footer {
@@ -262,21 +263,20 @@ address {
   font-size: 14px;
   line-height: 1.71;
 }
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
+.footer-container .logo {
+  margin: 0;
+  padding: 0;
 }
 
 .footer-address {
-  padding-top: 20px;
+  margin-top: 20px;
 }
-.footer-item {
-  padding-bottom: 9px;
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 /* Страница Портфолио */
 .button-filter {
+  border: transparent;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -321,14 +321,11 @@ address {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
-  border-top: none;
 }
 .project-content {
   padding: 20px 24px;
-}
-.project-container {
-  margin-bottom: 94px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .command-item {
@@ -361,18 +358,15 @@ address {
   margin-right: 30px;
 }
 
-.section.features {
+.features {
   padding-bottom: 0;
 }
 
 .filter-list {
+  margin-bottom: 50px;
   justify-content: center;
   display: flex;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
-}
-.filter-container {
-  margin-top: 94px;
-  margin-bottom: 50px;
 }

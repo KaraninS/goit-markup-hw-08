@@ -289,6 +289,10 @@ address {
   font-size: 14px;
   line-height: 1.71;
 }
+
+.footer-container-studio {
+  flex-grow: 1;
+}
 .footer-container-studio .logo {
   margin: 0;
   padding: 0;
@@ -718,6 +722,9 @@ address {
   letter-spacing: 0.01em;
   color: #757575;
 }
+.modal-form-field:nth-child(4) {
+  margin-bottom: 20px;
+}
 textarea {
   resize: none;
 }
@@ -762,6 +769,7 @@ textarea {
 }
 
 .modal-form-textarea {
+  margin-top: 4px;
   padding: 16px 12px;
   height: 120px;
   resize: none;

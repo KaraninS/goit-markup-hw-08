@@ -12,20 +12,20 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/modern-normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <!-- Верхняя линия -->
-    <header class="page-header">
+    <header class="header">
         <div class="container header-container">
             <nav class="header-navigation">
                 <a href="/" class="logo">Web<span class="logo-span">Studio</span></a>
 
-                <ul class="navigation-list">
-                    <li class="navigation-item"><a href="index.html" class="navigation-link link curent">Студия</a></li>
-                    <li class="navigation-item"><a href="portfolio.html" class="navigation-link link">Портфолио</a></li>
-                    <li class="navigation-item"><a href="" class="navigation-link link">Контакты</a></li>
+                <ul class="navigation">
+                    <li class="navigation__item"><a href="index.html" class="navigation-link link curent">Студия</a></li>
+                    <li class="navigation__item"><a href="portfolio.html" class="navigation-link link">Портфолио</a></li>
+                    <li class="navigation__item"><a href="" class="navigation-link link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="contact">
@@ -57,7 +57,7 @@
                 <h2 class="visually-hidden">Изготовление проэктов</h2>
                 <ul class="features-list">
                     <li class="features-item">
-                        <div class="box-icon">
+                        <div class="features-box-icon">
                         <svg class="antena" width="70" height="70">
                             <use href="./images/icons.svg#icon-antenna"></use>
                         </svg>
@@ -67,7 +67,7 @@
                             позиции.</p>
                     </li>
                     <li class="features-item">
-                        <div class="box-icon">
+                        <div class="features-box-icon">
                             <svg class="clock" width="70" height="70">
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
@@ -77,7 +77,7 @@
                             влечет за собой.</p>
                     </li>
                     <li class="features-item">
-                        <div class="box-icon"> <svg class="clock" width="70" height="70">
+                        <div class="features-box-icon"> <svg class="clock" width="70" height="70">
                                 <use href="./images/icons.svg#icon-diagram"></use>
                             </svg></div>
                         <h3 class="features-title">Планирование</h3>
@@ -85,7 +85,7 @@
                             обуславливает.</p>
                     </li>
                     <li class="features-item">
-                        <div class="box-icon"> <svg class="clock" width="70" height="70">
+                        <div class="features-box-icon"> <svg class="clock" width="70" height="70">
                                 <use href="./images/icons.svg#icon-astronaut"></use>
                             </svg></div>
                         <h3 class="features-title">Современные технологии</h3>
@@ -122,7 +122,7 @@
                 <ul class="command-list">
                     <li class="command-item">
                         <img src="images/igor_dp.jpg" alt="Игорь Product Designer" width="300">
-                        <div class="team-box">
+                        <div class="command-box">
                             <h3 class="command-pre-title">Игорь Демьяненко</h3>
                             <p class="command-text ">
                                 Product Designer
@@ -146,7 +146,7 @@
                     </li>
                     <li class="command-item">
                         <img src="images/olga_df.jpg" alt="Ольга Frontend Developer" width="300">
-                        <div class="team-box">
+                        <div class="command-box">
                             <h3 class="command-pre-title">Ольга Репина</h3>
                             <p class="command-text">
                                 Frontend Developer
@@ -170,7 +170,7 @@
                     </li>
                     <li class="command-item">
                         <img src="images/nikol_narketing.jpg" alt="Николай Marketing" width="300">
-                        <div class="team-box">
+                        <div class="command-box">
                             <h3 class="command-pre-title">Николай Тарасов</h3>
                             <p class="command-text">
                                 Marketing
@@ -194,7 +194,7 @@
                     </li>
                     <li class="command-item">
                         <img src="images/mihail_ui.jpg" alt="Михаил UI Designer" width="300">
-                        <div class="team-box">
+                        <div class="command-box">
                             <h3 class="command-pre-title">Михаил Ермаков</h3>
                             <p class="command-text">
                                 UI Designer
@@ -221,7 +221,7 @@
         </section>
         <section class="section clients-sextion">
             <div class="container">
-                <h2 class="clients-title">Постоянные клиенты</h2>
+                <h2 class="client-title">Постоянные клиенты</h2>
                 <ul class="client-list">
                     <li class="client-item"><a class="client-link" href=""><svg class="client-icon" width="106" height="60">
                                             <use href="./images/icons.svg#icon-ya"></use>

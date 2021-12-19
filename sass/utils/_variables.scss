@@ -1,0 +1,14 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --baner: #2f303a;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--primery-white-color);
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  margin: 0;
+}

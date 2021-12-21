@@ -1,8 +1,8 @@
-.footer-form {
+.subscribe {
   display: flex;
 }
 
-.footer-form-input {
+.subscribe__input {
   padding: 15px 0 15px 16px;
   margin-right: 12px;
   width: 358px;
@@ -23,12 +23,12 @@
   border-radius: 4px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
 }
 
-.footer-form-icon {
+.subscribe__icon {
   margin-left: 10px;
-}
-.footer-form-input:focus {
-  border-color: var(--accent-color);
-  outline: none;
 }

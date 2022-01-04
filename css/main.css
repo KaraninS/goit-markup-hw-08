@@ -126,7 +126,7 @@ body {
   text-decoration: none;
 }
 
-.logo__header {
+.logo__dark {
   color: #000;
 }
 
@@ -215,18 +215,13 @@ body {
 .social {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 16px;
 }
 
 .social--no-indent {
   padding: 0;
   margin: 0;
-}
-
-.social__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 16px;
 }
 
 .social__item:not(:last-child) {
@@ -512,11 +507,6 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project__link:hover .project__overlay,
-.project__link:focus .project__overlay {
-  transform: translateY(0);
-}
-
 .project__box {
   position: relative;
   overflow: hidden;
@@ -536,6 +526,11 @@ body {
   color: #ffffff;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
+}
+
+.project__link:hover .project__overlay,
+.project__link:focus .project__overlay {
+  transform: translateY(0);
 }
 
 .header {

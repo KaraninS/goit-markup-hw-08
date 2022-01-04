@@ -1,20 +1,15 @@
 .social {
   display: flex;
   justify-content: center;
+  align-items: center;
 
+  margin-top: 16px;
   &--no-indent {
     padding: 0;
     margin: 0;
   }
 }
 
-.social__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-top: 16px;
-}
 .social__item:not(:last-child) {
   margin-right: 10px;
 }

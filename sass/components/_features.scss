@@ -1,11 +1,32 @@
 .features {
-  display: flex;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    margin: -15px;
+  }
 }
 
 .features__item {
-  width: 270px;
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+  }
+
   &:not(:last-child) {
-    margin-right: 30px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      margin-right: 30px;
+    }
   }
 }
 
@@ -23,13 +44,27 @@
   color: var(--title-text-color);
 
   margin-bottom: 10px;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .features__box {
   background: #f5f4fa;
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (min-width: $mobile) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 270px;
+  }
 }

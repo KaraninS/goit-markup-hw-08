@@ -22,7 +22,7 @@
   color: var(--title-text-color);
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.18;
   font-weight: 700;
@@ -30,5 +30,6 @@
   @media screen and (min-width: $desktop) {
     font-size: 36px;
     line-height: 1.166;
+    margin-bottom: 50px;
   }
 }
